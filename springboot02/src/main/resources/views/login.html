@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link href="/js/bootstrap2.3.2/css/bootstrap.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="/js/layui/css/layui.css" type="text/css"/>
+</head>
+<body>
+<div id="user1" class="container-fluid">
+    <div class="control-group">
+        <div class="controls">
+            <input type="text" v-model="user.name">
+        </div>
+        <div class="controls">
+            <input type="text" v-model="user.age">
+        </div>
+    </div>
+    <button type="button" class="close"  @click="add">保存</button>
+    <button>保存</button>
+</div>
+<script src="/js/jquery-2.0.3.min.js"></script>
+<script src="/js/bootstrap2.3.2/js/bootstrap.min.js"></script>
+<script src="/js/layui/layui.all.js"></script>
+<script src="/js/vue.js"></script>
+<script src="/js/user.js"></script>
+</body>
+</html>

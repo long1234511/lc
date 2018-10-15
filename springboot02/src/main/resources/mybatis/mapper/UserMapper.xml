@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="web.com.dao.UserDao">
+    <resultMap id="user" type="web.com.entity.User">
+        <result column="id" property="id"></result>
+        <result column="age" property="age"></result>
+        <result column="name" property="name"></result>
+    </resultMap>
+        <insert id="addUser" parameterType="web.com.entity.User">
+          INSERT INTO user(
+          <if test="id !=null">
+              id,
+          </if>
+            <if test="name !=null and name!=''">
+                name,
+            </if>
+            <if test="age!=null">
+                age
+            </if>
+          )
+            VALUES
+            (
+            <if test="id !=null">
+                id,
+            </if>
+            <if test="name !=null and name!=''">
+                name,
+            </if>
+            <if test="age!=null">
+                age
+            </if>
+            )
+        </insert>
+</mapper>
