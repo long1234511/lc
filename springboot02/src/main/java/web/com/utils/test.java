@@ -10,9 +10,15 @@ import java.util.Random;
  * @email: longcong@aliyun.com
  * @date: 2018-09-28  9:14
  **/
+
 public class test {
 
     public static void main(String[] args) {
         System.out.println(new Random().nextInt(10));
     }
+
+
+
+
+
 }
