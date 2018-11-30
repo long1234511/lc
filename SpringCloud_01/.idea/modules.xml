@@ -4,7 +4,9 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/EureKaService/EureKaService.iml" filepath="$PROJECT_DIR$/EureKaService/EureKaService.iml" />
       <module fileurl="file://$PROJECT_DIR$/EurekaCilent/EurekaCilent.iml" filepath="$PROJECT_DIR$/EurekaCilent/EurekaCilent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Servicefeign/Servicefeign.iml" filepath="$PROJECT_DIR$/Servicefeign/Servicefeign.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringCloud_01.iml" filepath="$PROJECT_DIR$/SpringCloud_01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/serviceRibbon/serviceRibbon.iml" filepath="$PROJECT_DIR$/serviceRibbon/serviceRibbon.iml" />
     </modules>
   </component>
 </project>

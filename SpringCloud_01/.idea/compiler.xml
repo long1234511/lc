@@ -9,6 +9,8 @@
         <module name="EurekaCilent" />
         <module name="EurekaClient" />
         <module name="EureKaService" />
+        <module name="Servicefeign" />
+        <module name="serviceRibbon" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -16,6 +18,8 @@
       <module name="EurekaClient" target="1.8" />
       <module name="EurekaServe" target="1.8" />
       <module name="EureKaService" target="1.8" />
+      <module name="Servicefeign" target="1.8" />
+      <module name="serviceRibbon" target="1.8" />
       <module name="SpringCloud_01" target="1.8" />
     </bytecodeTargetLevel>
   </component>

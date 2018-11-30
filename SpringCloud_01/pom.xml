@@ -10,6 +10,8 @@
     <modules>
         <module>EureKaService</module>
         <module>EurekaClient</module>
+        <module>serviceRibbon</module>
+        <module>Servicefeign</module>
     </modules>
     <packaging>pom</packaging>
 

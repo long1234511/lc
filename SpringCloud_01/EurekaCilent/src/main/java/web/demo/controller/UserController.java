@@ -27,4 +27,14 @@ public class UserController {
             user.setName("zs");
         return user;
     }
+
+    @RequestMapping(value = "/hello")
+    public User getUser(@RequestParam String name){
+        User user = new User();
+        user.setAge(12);
+        user.setId(1);
+        user.setName(name);
+        return user;
+    }
+
 }
