@@ -15,6 +15,7 @@
       <set>
         <option value="$PROJECT_DIR$/EurekaClient/pom.xml" />
         <option value="$PROJECT_DIR$/EurekaServe/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringCloud_ActiveMQ/pom.xml" />
       </set>
     </option>
   </component>

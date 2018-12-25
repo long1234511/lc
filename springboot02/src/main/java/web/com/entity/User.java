@@ -13,6 +13,14 @@ public class User {
     private String name;
     private String age;
 
+    public User(){
+
+    }
+    public User(Integer id,String name,String age){
+        this.id = id;
+        this.age = age;
+        this.name = name;
+    }
     public Integer getId() {
         return id;
     }
@@ -35,5 +43,14 @@ public class User {
 
     public void setAge(String age) {
         this.age = age;
+    }
+
+    @Override
+    public String toString() {
+        return "User{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                ", age='" + age + '\'' +
+                '}';
     }
 }

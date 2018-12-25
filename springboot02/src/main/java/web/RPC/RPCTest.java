@@ -3,6 +3,8 @@ package web.RPC;
 import web.Service.RPCService;
 import web.clinet.RPClinet;
 
+import java.util.List;
+
 /**
  * @version V1.0.1
  * @classname RPCTest
@@ -13,7 +15,7 @@ import web.clinet.RPClinet;
  **/
 public class RPCTest {
     public static void main(String[] args) {
-        RPCService server = new RPCService();
-        server.RpcServicesPush(8000);
+
     }
+
 }
